@@ -7,17 +7,25 @@ Para eso, la API utiliza requisiciones HTTP responsables de las operaciones bás
 Las principales solicitudes son:
 
 POST: crea datos en el servidor;
+
 GET: lectura de datos en el host;
+
 DELETE: borra la información;
+
 PUT: registro de actualizaciones.
+
 Rest, que es la abreviación de Representational State Transfer, es un conjunto de restricciones que se utilizan para que las solicitudes HTTP cumplan con las directrizes definidas en la arquitectura.
 
 Básicamente, las restricciones determinadas por la arquitectura Rest son:
 
 Cliente-servidor: las aplicaciones existentes en el servidor y el cliente deben estar separadas.
+
 Sin estado: las requisiciones se realizan de forma independiente, es decir, cada una ejecuta solo una determinada acción.
+
 Caché: la API debe utilizar la caché para evitar llamadas recurrentes al servidor.
+
 Interfaz uniforme: agrupa otros cuatro conceptos en los que se determina que los recursos deben ser identificados, la manipulación de los recursos debe ser a través de la representación, con mensajes autodescriptivos y utilizando enlaces para navegar por la aplicación.
+
 Luego, cuando se habla de Rest API, significa utilizar una API para acceder a aplicaciones back-end, de manera que esa comunicación se realice con los estándares definidos por el estilo de arquitectura Rest.
 
 ¿Para qué sirve API Rest?
